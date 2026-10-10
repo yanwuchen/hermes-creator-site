@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Hermes Creator 的 Google Drive 数据访问、AI 处理、存储和撤销授权说明。">
+  <title>隐私政策 · Hermes Creator</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <a class="brand" href="./">Hermes Creator</a>
+    <nav aria-label="网站导航"><a href="./">应用介绍</a><a href="privacy.html" aria-current="page">隐私政策</a></nav>
+  </header>
+  <main>
+    <h1>隐私政策</h1>
+    <p class="meta">生效及更新日期：2026 年 10 月 10 日</p>
+    <p>本政策适用于 yanwuchen 维护的个人自用应用 Hermes Creator。应用用于创作讨论、文案整理和 Google Drive 素材管理，目前不面向公众提供注册服务。</p>
+    <h2>1. 访问的数据和用途</h2>
+    <ul>
+      <li>Google 账号显示名称和邮箱：用于确认当前授权账号。</li>
+      <li>Google Drive 目录、文件名称、文件 ID、类型、链接、大小和可用校验值：用于查找素材、组织选题和记录素材索引。</li>
+      <li>用户指定处理的文件内容及本地媒体：用于用户请求的阅读、整理、上传或其他明确指定的创作任务。</li>
+      <li>用户提供的聊天文字和创作信息：用于讨论、生成总结和脚本；正式收录由用户确认。</li>
+      <li>OAuth 访问和刷新令牌：用于完成授权和后续访问 Google Drive。</li>
+    </ul>
+    <p>应用当前申请完整 Google Drive 访问权限，其能力包括访问、修改和删除账号内的全部云盘文件。操作约定仅处理创作素材目录或用户明确指定的数据；获得权限不表示会自动读取整个云盘。此 Drive 授权不请求 Gmail、Calendar 或 Contacts 权限。</p>
+    <h2>2. 存储和备份</h2>
+    <p>媒体主要保存于用户的 Google Drive。用户确认收录的文字、脚本和素材索引保存于私有 GitHub 创作仓库。Hermes 服务器保存聊天记录、必要文档、OAuth 凭据和任务所需的临时文件，部分数据可能随运行日志或会话记录保留。</p>
+    <p>OAuth 凭据位于受限的私密目录。Hermes 核心数据（包括凭据和会话等）由现有备份流程加密归档至私有 GitHub 备份仓库。加密备份不等于数据从未离开服务器。公开的网站仓库只放应用介绍和本政策，不放创作资料或凭据。</p>
+    <h2>3. AI 处理及服务提供方</h2>
+    <p>聊天和创作整理使用 Hermes 配置的模型服务。相关聊天文字、模型上下文，以及用户请求分析的素材信息或文件内容，可能发送给配置的模型服务商及其 API 中转服务以完成推理；这不代表全部 Google Drive 内容会被自动传给模型。</p>
+    <p>Google 提供账号授权和 Drive 存储；GitHub 提供文字仓库、加密备份和本公开网站的托管；所使用的聊天平台处理消息传输。这些服务有各自的数据处理政策。应用不出售 Google 用户数据，不将其用于广告定位，也不主动用于训练通用 AI 模型。只有完成用户请求所需的数据才应发送至相关服务。</p>
+    <h2>4. 分享和有限使用</h2>
+    <p>应用不自动公开或对外分享 Drive 素材、创作仓库或备份。需要分享、公开或发布内容时，应由用户明确决定。维护者可为用户请求、故障排查和安全维护访问必要数据。</p>
+    <p>Hermes Creator 对从 Google API 获得的信息的使用和转移遵守 <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>，包括 Limited Use 要求。</p>
+    <h2>5. 保存期限和删除</h2>
+    <p>素材、仓库文字、会话及备份按用户的保存和备份安排保留，没有统一的自动到期删除期限。用户可以指示维护者删除服务器凭据、会话、指定素材或创作资料。删除当前文件不自动清除 Git 历史、旧备份或第三方留存；处理这些副本需要单独检查和执行。临时任务文件在不再需要时清理。</p>
+    <h2>6. 撤销 Google 授权</h2>
+    <p>用户可以在 <a href="https://myaccount.google.com/connections">Google 账号的第三方连接设置</a>中选择 Hermes Creator 并撤销连接，停止应用后续访问 Google Drive。撤销授权不会自动删除已经保存的文件、索引、会话或备份，需要另行提出删除请求。</p>
+    <h2>7. 联系和政策变更</h2>
+    <p>维护者：<a href="https://github.com/yanwuchen">yanwuchen</a>。有关数据处理、删除或本政策的问题，请联系 <a href="mailto:dr.chencumt@gmail.com">dr.chencumt@gmail.com</a>。数据用途或服务配置发生变化时，本政策应同步更新，并更新页面日期。</p>
+  </main>
+  <footer><a href="./">返回 Hermes Creator</a></footer>
+</body>
+</html>
